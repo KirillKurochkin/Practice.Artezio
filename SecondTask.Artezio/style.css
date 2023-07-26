@@ -1,0 +1,99 @@
+*{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-for-task{
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 5px gray solid;
+    padding-left: 5px;
+    margin-bottom: 14px;
+}
+
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.navigation-panel span{
+    font-size: 30px;
+}
+
+.header-task-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-task-list span{
+    border-left: 10px;
+    border-color: gray;
+}
+
+.main-item{
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+.setting-item{
+    float: right;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+.task-item{
+
+}
+
+.count{
+    
+}
+
+.image-slider__image img{
+    max-height: 220px;
+    max-width: 220px;
+}
+
+.image-slider{
+    max-width: 220px;
+    text-align: center;
+}
+
+.swiper{
+    max-height: 300px;
+    max-width: 300px;
+    margin-left: 0px;
+}
+
+.container{
+    display: flex;
+    border: 2px grey solid;
+    border-radius: 10px;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 600px;
+    max-height: 300px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.element{
+    width: 100px;
+    height: 100px;
+    min-width:50px;
+    min-height: 50px;
+    max-width: 320px;
+    max-height: 180px;
+    border: 2px grey solid;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+div{
+    margin-bottom: 3px;
+}

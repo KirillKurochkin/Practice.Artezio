@@ -1,0 +1,134 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul.main-list li{
+    font-size: 18pt;
+    display: inline;
+    font-style: normal;
+    margin-right: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.navigation-item
+{
+    border-bottom: 1px solid;
+    font-size: 18px;
+}
+
+.header-traning {
+    border-left: 4px solid; 
+    border-color: gray; 
+    border-spacing: gray; 
+    border-spacing: 5px;    
+    font-size: 28px;
+    padding-left: 15px;
+}
+
+li.settings{
+    margin-left: 20pt;
+    float: right;
+    color: rgb(158,156,152)
+}
+
+li.tasks{
+    color: rgb(158,156,152)
+}
+
+li.main{
+    text-decoration: underline;
+    margin-right: 300px;
+}
+
+.languages-list li{
+    margin: 0 40px;
+}
+
+.languages li{
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.technology{
+    margin-top: 20px;
+    background-color: rgb(245,245,245);
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.block-languages-element{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-header-technologies{
+    display: flex;
+}
+
+.block-header{
+    
+}
+
+.block-languages{
+    
+}
+
+.picture{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    max-width: 220px;
+    max-height: 220px;
+    margin-bottom: 40px;
+}
+
+.picture-arrow{
+    margin-top: 23px;
+    height: 22px;
+    width: 22px;
+}
+
+.footer-text{
+    margin-top: 100px;
+    border: 2px solid rgb(239,239,241);
+    border-bottom: 1px;
+    float: right;
+}
+
+a.footer-text{
+    text-decoration: underline;
+    color: dodgerblue;
+    float: right;
+    background-color: white;
+
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+*{
+    color: black;
+    font-family: 'Time New Roman', Times, serif;
+}
+
+.footer{
+    position: relative;
+    padding-top: 30px;
+}
+
+.footer-next
+{
+    position: relative;
+    right: 40px;
+    top: 29;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+.n-footer{
+    color: rgb(38,163,163);
+}

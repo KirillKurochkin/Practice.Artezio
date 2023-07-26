@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="logic.js">
+</head>
+<body>
+    <nav class ="navigation-panel"> 
+        <div>
+            <span class = "main-item">Главная</span>
+            <span class = "task-item">Задания</span>
+            <span class = "setting-item">Настройки</span>
+        </div>
+    </nav>
+
+    <header class = "header-task-list">
+        <span>
+            Список заданий:
+        </span>
+    </header>
+
+    <section>
+        <div>
+            <div class = "header-for-task">
+                Задание 1. Ввод символов
+            </div>
+            <div>
+                <input oninput="getCount(this)" name="" id="firstTask" cols="30" rows="1" maxlength="360"></input>
+            </div>
+            <div>
+                <span>
+                    <span>Количество символов:</span>
+                    <span id = "countId">0</span>
+                    /
+                    <span>360</span>
+                </span>
+            </div>
+        </div>   
+    </section>
+
+    <section>
+        <div>
+            <div class = "header-for-task">
+                Задание 2. Ввод текста                                                                                        
+            </div> 
+            <div>
+                <textarea oninput="getAllCount(this)" name="" id="secondTask" cols="30" rows="8"></textarea>
+            <div>
+                <span>Количество символов: </span>
+                <span id = "secondCountId">0</span>
+                /
+                <span>360</span>
+            </div>
+            <div>
+                <span>Количество слов: </span>
+                <span id = "wordCountId">0</span>
+            </div>
+            <div>
+                <span>Количество строк: </span>
+                <span id = "stringCountId">0</span>
+            </div>
+        </div>  
+    </section>
+
+    <section>
+        <div>
+            <div class = "header-for-task">
+                Задание 3. Проверка ввода
+            </div>
+            <div>
+            </div>
+                <input oninput="validInput(this,'remainingCharactersId')" id = "thirdTask">
+            </div>
+            <div>
+                <span id = "remainingCharactersId">Отсталось символов: 10</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div class = "header-for-task">
+                Задание 4. Ограничение ввода
+            </div>
+            <div>
+                <textarea oninput = "validInputWitchRestriction(this)" cols="30" rows="5"></textarea>
+                <input type="checkbox" id="checkboxInputId">
+
+                <span>Запретить превышениие</span>
+            </div>
+            <div>
+                <span id = "remainingInputCharactersId">Отсталось символов: 10</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class = "header-for-task">
+            Задание 5. Слайдер картинок
+        </div>
+        <div class = "image-slider swiper">
+            <div class = "swiper-wrapper image-slider__image">
+                <div class = "swiper-slide">
+                    <div class>
+                        <img src="html.png">
+                    </div>
+                </div>
+                <div class = "swiper-slide">
+                    <div>
+                        <img src="css.png"> 
+                    </div>
+                </div>
+                <div class = "swiper-slide">
+                    <div>
+                        <img src="js.png">
+                    </div>
+                </div> 
+            </div>
+            <div class = "swiper-button-next"></div>
+            <div class = "swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div class = "header-for-task">
+                Задание 6. Разность дат
+            </div>
+            <div>
+                <span id = "nowTimeId" oninput="getNowData(this)">Сегодня: </span>
+    
+                <div id ="dateTimeId"></div>
+                <div id = setTimeid></div>
+    
+                <div>
+                    <select name="day" id="day"></select>
+                    <select name="month" id="month"></select>
+                    <select name="year" id="year"></select>
+                </div>
+    
+                <div id = "resultDate"></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class = "header-for-task" >Задание 7. Прямоугольник</div>
+           
+        <div class = container>
+            <div class="element" id = 'rectangle'></div>
+        </div>
+    </section>
+
+    <script src = "https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src = "logic.js"></script>
+</body>
+</html>
